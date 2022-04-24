@@ -1,0 +1,57 @@
+.title {
+  color: rgb(0, 115, 168);
+  font-family: fantasy;
+}
+.ftitle {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 8rem;
+}
+.IADD {
+  width: 35rem;
+  height: 3.5rem;
+  border: black solid;
+  font-size: xx-large;
+}
+.FADD {
+  display: flex;
+  justify-content: center;
+}
+.ADD {
+  color: white;
+  background-color: rgb(0, 115, 168);
+  border: none;
+  border-radius: 2px;
+}
+.ITEM {
+  display: flex;
+  justify-content: start;
+}
+
+.button {
+  height: 1.7rem;
+}
+.FITEM {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+
+  text-align-last: left;
+  vertical-align: bottom;
+}
+.MainItem {
+  text-align: start;
+  color: rgb(0, 115, 168);
+  font-size: xx-large;
+  cursor: pointer;
+}
+.ITEM {
+  display: flex;
+  flex-direction: column;
+}
+.ALL {
+  display: flex;
+  flex-direction: column;
+}
